@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BioData Form + School Data Form</title>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="FirstName">First Name</label>
+        <input type="text" id=FirstName name="First Name" placeholder="First Name" required>
+        <label for="LastName">LastName</label>
+        <input type="text" id="LastName" placeholder="LastName" name="user" required>
+        <br>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="others">Others</label>
+        <input type="radio" name="gender" id="others">
+        <br>
+        <br>
+        Date of Birth:
+        <input type="date" >
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="email" id="email">
+        <br>
+        <br>
+        <label for="Phone">Phone:</label>
+        <input type="tel" name="Phone" id="Phone" maxlength=10 >
+        <br>
+        <br>
+        <label for="Height">Height:</label>
+        <input type="number" name="Height" id="Height" placeholder="Height in Feet">
+    </fieldset>
+
+    <fieldset>
+            <legend>Educational</legend>
+            <label for="School Name">School Name</label>
+            <input type="text" name="School Name" id="School Name" placeholder="ex:JNTU">
+            <br>
+            <br>
+            <label for="Class">Class</label>
+            <input type="text" name="Class" id="Class" placeholder="Enter Class">
+            <br>
+            <br>
+            <label for="Stream">Stream</label>
+            <input type="select" id="Stream" >
+            <br>
+            <br>
+            <label for="marksheet">Marksheet</label>
+            <input type="file" id="marksheet">
+            <br>
+            <br>
+    </fieldset>
+    <input type="submit" value="Send Response">
+    <br>
+    <br>
+    
+    <a href="http://google.com" target="_self">Open Google</a>
+    <a href="./schooltimetable.html" target="_blank">View TimeTable</a>
+</body>
