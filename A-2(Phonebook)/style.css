@@ -1,0 +1,14 @@
+p::before{
+    content:"\260E";
+}
+h1{
+    border:1px;
+    border-style: double;
+    border-color:blueviolet;
+    position:sticky;
+    top:10px;
+    background-color: blanchedalmond;
+}
+li:nth-of-type(2){
+    color:#9c6137;
+}
